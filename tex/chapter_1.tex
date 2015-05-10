@@ -1,0 +1,27 @@
+\chapter{Introduction}
+
+\section{The book}
+This book focuses on intersection of two areas of technical excellence: algorithms and software development. One might think that the two are the same thing, but, in fact, they do not intersect as much and as often as one would prefer. Researchers focus on getting a job done. Most of the time they have no time to refactor their code in a fancy library: they are \textbf{researchers}, their time is expensive so they focus on research. On the other hand, software development professionals may be reluctant to push the limits of their algorithmic software, so some of them confine themselves to available implementations. Without further ado, this book is about bridging the gap between aforementioned areas and groups of professionals.
+
+\subsection{The target audience}
+This book atttempts to reach as many readers as possible, yet a reader must be interested in at least one of the two major aspects covered. Also students in computer science and/or software engineering may get useful insight into the topics covered. I tried to organize the text such that the less you know the more you benefit, yet I have to assume that the reader has at least basic familiarity with some modern version of Java programming language.
+
+Note that this is not quite a course book as there is no exercises in the book altogether. Whenever formalism and mathematics are needed, they are presented. The author will attempt to make the reader learn non-trivial techniques without spending multitude of working hours on exercises. Also, this book may be used as a cookbook of various relevant techniques.
+
+\subsection{How this book is organized}
+The  chapters (or actually material they cover) are ordered in such a way that each new chapter makes no references to succeeding chapters. If this requirement cannot be satisfied, the amount of ``forward references'' will be minimzed. The code for each software item we use (such as an algorithm, a data structure, an API item, and so on) will be listed in a well formatted (and colored) way. As you procede, you will fill in more and more components into a larger framework of reusable algorithms and data structures.
+
+\section{Toolchain}
+This section will list the tools you need in order to be able to reproduce all the code.
+
+\subsection{JDK}
+\textbf{JDK}\footnote{\url{http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html}} stands for ``Java development kit'' and it mainly consists of Java classes usable in common programming tasks. Also, a compiler, a virtual machine among other utilities are included. One important tool is \texttt{javadoc}, which generates API documentation from the comments embedded in the source code. We will assume JDK \textbf{version 8} here as it is pretty common and mature nowadays.
+
+\subsection{IDE}
+IDE stands for ``integrated development environment'' and usually it is a fancy text editor tailored to writing code. Most of them provide different shortcuts for doing common tasks, and by learning 10 or so of them your productivity will boost up significantly. Also, the next chapter will introduce you to ``fluent'' APIs, which lose all their benefit if you don't use an IDE. 
+
+\subsection{Maven}
+\Maven\footnote{\url{https://maven.apache.org/}} is a tool that automates many project management related tasks such as running tests, compiling, packaging, generating documentation, and so on. 
+
+\subsection{git and GitHub}
+\git\footnote{\url{http://git-scm.com/}} is a really popular version control system and \GH\footnote{\url{https://github.com/}}  provides a web hosting service for \git repositories. The two became de facto standard for sharing open source software, and we will use them too.
